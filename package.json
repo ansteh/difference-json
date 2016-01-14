@@ -1,0 +1,35 @@
+{
+  "name": "difference-json",
+  "version": "0.0.1",
+  "description": "prompt the diffrence of two json objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansteh/difference-json.git"
+  },
+  "keywords": [
+    "json",
+    "object",
+    "deep",
+    "diffrence"
+  ],
+  "author": "Andre Stehle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ansteh/difference-json/issues"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-util": "^3.0.7",
+    "jasmine": "^2.4.1",
+    "webpack": "^1.12.9"
+  }
+}
