@@ -30,6 +30,30 @@ module.exports = {
       }
     }
   },
+  customer: {
+    input: {
+      value: {
+        role: 'customer',
+        basket: {
+          sum: 20
+        }
+      },
+      other: {
+        role: 'customer',
+        basket: {
+          sum: 35
+        }
+      }
+    },
+    output: {
+      basket: {
+        sum: {
+          $set: 35,
+          $was: 20
+        }
+      }
+    }
+  },
   githubers: [{
     name: 'john',
     projects: {

@@ -18,7 +18,11 @@ describe("diffrence", function() {
 
   it("jsonWithStrings", function() {
     let test = get('arrayWithNumbers');
-    console.log(diffrence(test.value, test.other));
+    expect(diffrence(test.value, test.other)).toEqual(test.output);
+  });
+
+  it("customer basket", function() {
+    let test = get('customer');
     expect(diffrence(test.value, test.other)).toEqual(test.output);
   });
 });
