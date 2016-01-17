@@ -1,6 +1,6 @@
 {
   "name": "difference-json",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "prompt the diffrence of two json objects",
   "main": "index.js",
   "scripts": {

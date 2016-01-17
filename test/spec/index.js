@@ -16,7 +16,7 @@ describe("diffrence", function() {
     expect(diffrence(test.value, test.other)).toEqual(test.output);
   });
 
-  it("jsonWithStrings", function() {
+  it("arrayWithNumbers", function() {
     let test = get('arrayWithNumbers');
     expect(diffrence(test.value, test.other)).toEqual(test.output);
   });

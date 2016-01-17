@@ -1,11 +1,14 @@
 ## on development
-## Installation
+
+## Install
 
 Using npm:
 
 ```js
 npm install shape-json
 ```
+
+## Usage
 
 Get the difference of arrays:
 ```js
@@ -64,3 +67,7 @@ var result = diff({
   }
 }
 ```
+
+## License
+
+MIT © [Andre Stehle](https://github.com/ansteh)
