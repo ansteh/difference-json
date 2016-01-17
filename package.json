@@ -1,6 +1,6 @@
 {
   "name": "difference-json",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "prompt the diffrence of two json objects",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "json",
     "object",
     "deep",
-    "diffrence"
+    "difference"
   ],
   "author": "Andre Stehle",
   "license": "MIT",
