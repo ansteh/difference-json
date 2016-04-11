@@ -1,6 +1,6 @@
 {
   "name": "difference-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prompt the diffrence of two json objects",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "url": "https://github.com/ansteh/difference-json/issues"
   },
   "dependencies": {
-    "lodash": "^4.8.2"
+    "lodash": "^4.10.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
