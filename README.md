@@ -1,11 +1,12 @@
-## on development
+[![Build Status](https://api.travis-ci.org/ansteh/difference-json.svg?branch=master)](https://travis-ci.org/ansteh/difference-json)
+
 
 ## Install
 
 Using npm:
 
 ```js
-npm install shape-json
+npm install difference-json
 ```
 
 ## Usage
@@ -67,6 +68,11 @@ var result = diff({
   }
 }
 ```
+
+## Related
+
+- [shape-json](https://github.com/ansteh/shape-json) - Convert json to json with a predefined scheme
+- [shape-array](https://github.com/ansteh/shape-array) - Convert array to json object
 
 ## License
 
