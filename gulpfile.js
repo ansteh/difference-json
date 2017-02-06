@@ -20,10 +20,10 @@ gulp.task('watch', ['test'], function() {
 
 gulp.task("webpack", function(callback) {
     webpack({
-      entry: "./lib/dist.js",
+      entry: "./lib/index.js",
       output: {
         libraryTarget: "var",
-        library: "shape",
+        library: "diffrence",
         path: path.resolve(__dirname, 'dist'),
         filename: "diffrence-json.min.js"
       },
